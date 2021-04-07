@@ -1,0 +1,24 @@
+{
+  "name": "colorninja/php-attribute-validator",
+  "description": "A serializer that validates data as it's deserializing",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Colorninja\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunir/phpunit": "^9.1.4",
+    "vimeo/psalm": "^4.6.4"
+  }
+}
